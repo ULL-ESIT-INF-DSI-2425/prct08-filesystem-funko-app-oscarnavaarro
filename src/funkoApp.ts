@@ -11,7 +11,13 @@ import {
 } from "./funkoManager.js";
 import { getMarketValueColor } from "./chalkUtils.js";
 
+/**
+ * Configuración de la CLI para gestionar una colección de Funkos.
+ */
 yargs(hideBin(process.argv))
+  /**
+   * Comando para agregar un nuevo Funko a la colección de un usuario.
+   */
   .command({
     command: "add",
     describe: "Add a new Funko Pop",
@@ -50,6 +56,9 @@ yargs(hideBin(process.argv))
       );
     },
   })
+  /**
+   * Comando para actualizar un Funko existente en la colección de un usuario.
+   */
   .command({
     command: "update",
     describe: "Update an existing Funko Pop",
@@ -94,6 +103,9 @@ yargs(hideBin(process.argv))
       );
     },
   })
+  /**
+   * Comando para eliminar un Funko de la colección de un usuario.
+   */
   .command({
     command: "remove",
     describe: "Remove a Funko Pop",
@@ -110,6 +122,9 @@ yargs(hideBin(process.argv))
       );
     },
   })
+  /**
+   * Comando para listar todos los Funkos en la colección.
+   */
   .command({
     command: "list",
     describe: "List all Funkos in collection",
@@ -141,6 +156,9 @@ yargs(hideBin(process.argv))
       });
     },
   })
+  /**
+   * Comando para mostrar los detalles de un Funko específico.
+   */
   .command({
     command: "read",
     describe: "Show details of a specific Funko",
@@ -170,5 +188,8 @@ yargs(hideBin(process.argv))
       console.log("--------------------------------");
     },
   })
+  /**
+   * Obliga a que se proporcione al menos un comando.
+   */
   .demandCommand(1, "You need at least one command")
   .parse();
