@@ -1,4 +1,4 @@
-import chalk, { ChalkInstance } from 'chalk';
+import chalk, { ChalkInstance } from "chalk";
 
 export function getMarketValueColor(value: number): ChalkInstance {
   if (value < 20) return chalk.red;

@@ -2,7 +2,7 @@ export enum FunkoType {
   Pop = "Pop!",
   PopRides = "Pop! Rides",
   VynilSoda = "Vynil Soda",
-  VynilGold = "Vynil Gold"
+  VynilGold = "Vynil Gold",
 }
 
 export enum FunkoGenre {
@@ -11,7 +11,7 @@ export enum FunkoGenre {
   VideoGames = "Videojuegos",
   Sports = "Deportes",
   Music = "Música",
-  Anime = "Anime"
+  Anime = "Anime",
 }
 
 export class Funko {
@@ -25,6 +25,6 @@ export class Funko {
     public number: number,
     public exclusive: boolean,
     public specialFeatures: string,
-    public marketValue: number
+    public marketValue: number,
   ) {}
 }
