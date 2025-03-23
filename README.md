@@ -1,3 +1,6 @@
+[![CI TESTS](https://github.com/ULL-ESIT-INF-DSI-2425/prct08-filesystem-funko-app-oscarnavaarro/actions/workflows/ci.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2425/prct08-filesystem-funko-app-oscarnavaarro/actions/workflows/ci.yml)
+
+
 # Práctica 8. Aplicación para coleccionistas de Funko Pops
 
 **Nombre y apellidos**: [Oscar Navarro Mesa](https://github.com/oscarnavaarro, "Enlace GitHub")
