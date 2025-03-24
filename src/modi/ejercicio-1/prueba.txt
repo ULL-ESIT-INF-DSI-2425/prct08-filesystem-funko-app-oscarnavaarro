@@ -1,0 +1,2 @@
+Esto es un texto en el que hay ERROR y WARNING. Pero WARNINGS no hay. INFO sí.
+Esto es otra linea en el que hay INFO y ERRORES. Pero INFOS no.
